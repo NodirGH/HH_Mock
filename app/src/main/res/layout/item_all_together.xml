@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:padding="@dimen/DefaultMarginSize"
+    tools:context=".ui.home.HomeFragment">
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/etSearch"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginEnd="@dimen/DefaultHalfMarginSize"-->
+<!--            android:layout_weight="6"-->
+<!--            android:background="@drawable/bg_light_grey"-->
+<!--            android:fontFamily="@font/sf_pro_display_regular"-->
+<!--            android:padding="@dimen/DefaultHalfMarginSize"-->
+<!--            android:textColor="@color/white" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/ivFilter"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="@drawable/bg_light_grey"-->
+<!--            android:padding="8dp"-->
+<!--            android:src="@drawable/ic_filter" />-->
+<!--    </LinearLayout>-->
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/rvHeaders"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="@dimen/DefaultMarginSize" />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:fontFamily="@font/ssf_pro_display_medium"-->
+<!--        android:text="@string/VacanciesForYou"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold" />-->
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/rvVacancies"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="@dimen/DefaultMarginSize" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvBtnConfirm"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:background="@drawable/bg_button_blue"-->
+<!--        android:fontFamily="@font/sf_pro_display_regular"-->
+<!--        android:gravity="center"-->
+<!--        android:paddingVertical="10dp"-->
+<!--        android:text="@string/MoreVacancies"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="14sp" />-->
+
+</LinearLayout>

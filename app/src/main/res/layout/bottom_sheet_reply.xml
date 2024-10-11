@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="48dp"
+    android:background="@drawable/bg_bottom_sheet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_woman"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginStart="@dimen/DefaultMarginSize"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ssf_pro_display_medium"
+                android:textColor="@color/grey"
+                android:textSize="14sp"
+                android:text="@string/ResumeForReply" />
+
+            <TextView
+                android:id="@+id/tvJob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ssf_pro_display_medium"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                tools:text="UI/UX designer" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_grey"
+        android:layout_marginVertical="@dimen/DefaultMarginSize"/>
+
+    <TextView
+        android:id="@+id/tvAddCoverLetter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ssf_pro_display_medium"
+        android:textColor="@color/primary_green"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:paddingVertical="12dp"
+        android:text="@string/AddCoverLetter"/>
+
+    <EditText
+        android:id="@+id/etYourCoverLetter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textColorHint="@color/light_grey"
+        android:hint="@string/YourCoverLetter"
+        android:visibility="gone"
+        android:fontFamily="@font/sf_pro_display_regular"/>
+
+    <TextView
+        android:id="@+id/tvBtnReply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/bg_button_green_8"
+        android:fontFamily="@font/sf_pro_display_regular"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:paddingVertical="8dp"
+        android:text="@string/Reply"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+</LinearLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llVacancy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/DefaultMarginSize"
+        android:background="@drawable/bg_dark_grey"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvNumberOfCandidates"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:fontFamily="@font/sf_pro_display_regular"
+                android:text="@string/NumberOfCandidates"
+                android:textColor="@color/primary_green"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/ivAddFavorite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_favorite" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvProfession"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ssf_pro_display_medium"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            tools:text="Дизайнер для маркетплейсов Wildberries, Ozon " />
+
+        <TextView
+            android:id="@+id/tvSalary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ssf_pro_display_medium"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            tools:text="1500-2900 Br" />
+
+        <TextView
+            android:id="@+id/tvAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            tools:text="Минск" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvCompanyName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sf_pro_display_regular"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:text="Еком дизайн" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/ic_checked" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_suitcase" />
+
+            <TextView
+                android:id="@+id/tvExperiencedYears"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/sf_pro_display_regular"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:text="Опыт от 1 года до 3 лет" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvPublishedDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            tools:text="Опубликовано 16 февраля" />
+
+        <TextView
+            android:id="@+id/tvBtnReply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/DefaultMarginSize"
+            android:background="@drawable/bg_button_green"
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:gravity="center"
+            android:paddingVertical="6dp"
+            android:text="@string/Reply"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+</LinearLayout>
